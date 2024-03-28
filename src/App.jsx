@@ -1,11 +1,11 @@
-import "./App.css";
+import Router from "./routes";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-red-700">
-        Welcome to Website ReactJS + TailwindCss
-      </h1>
+      <div className="App">
+        <Router />
+      </div>
     </>
   );
 }
