@@ -2,10 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/Sitemap/logo.png";
 
-const Sitemap = () => {
+const Sitemap = ({ border }) => {
   return (
     <section className="">
-      <div className="border-t border-b border-gray-200 py-12 mt-16 px-4">
+      <div
+        className={`${
+          border === "home"
+            ? "border-t border-b border-gray-200 py-12 mt-16 px-4"
+            : "border-b border-gray-200 py-12 mt-16 px-4"
+        }`}
+      >
         <div className="flex justify-center mb-8">
           <img
             src={Logo}

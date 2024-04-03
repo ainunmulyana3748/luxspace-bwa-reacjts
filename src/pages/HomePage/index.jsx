@@ -10,12 +10,12 @@ import Footer from "../../parts/Footer";
 const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header theme="white" position="absolute" />
       <Hero />
       <BrowseRoom />
       <JustArrived />
       <Clients />
-      <Sitemap />
+      <Sitemap border="home" />
       <Footer />
     </>
   );
