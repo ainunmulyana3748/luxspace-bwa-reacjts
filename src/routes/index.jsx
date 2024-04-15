@@ -10,7 +10,7 @@ const routers = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/categories/:idc",
+    path: "/categories/:idc/products/:idp",
     element: <Details />,
   },
   {
